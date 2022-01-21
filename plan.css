@@ -1,0 +1,487 @@
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: Favoritfreshly, sans-serif;
+  font-weight: 400;
+}
+
+.preNav {
+  height: 33px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.leftDiv {
+  width: 100px;
+  padding: 7px 2px;
+  border-bottom: 2px solid rgb(3, 81, 78);
+  margin-right: -8px;
+}
+
+.rightDiv {
+  width: 150px;
+  padding: 7px 2px;
+}
+
+#icon1 {
+  height: 11px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+#navImg {
+  height: 24px;
+  margin-top: -1px;
+  padding-left: 1px;
+}
+
+#navLinks {
+  display: flex;
+  margin-left: -25px;
+  color: grey;
+}
+a:nth-child(1) {
+  color: black;
+}
+
+#navLinkBox {
+  text-decoration: none;
+  padding: 0px 18px;
+  color: rgb(48, 48, 48);
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+#navLinkBox:hover {
+  color: rgb(49, 103, 255);
+}
+
+#setup {
+  display: flex;
+}
+
+#login {
+  text-decoration: none;
+  font-size: 0.8em;
+  margin-right: 17px;
+  font-weight: bold;
+}
+
+#signUpBtn {
+  background-color: rgb(49, 103, 255);
+  color: white;
+  text-decoration: none;
+  border: 1px solid rgb(49, 103, 255);
+  padding: 7px 9px;
+  font-size: 1em;
+  margin-top: -8px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+/* Customer Support */
+#sel {
+  border: 0px;
+  color: blue;
+  font-size: 15px;
+  text-decoration: underline;
+}
+#radii > p {
+  color: blue;
+  margin-top: 0px;
+  font-size: 15px;
+  padding: 3px 0 0 7px;
+}
+#radii {
+  border: 1px solid blue;
+  width: 30px;
+  height: 25px;
+  border-radius: 45%;
+  margin-bottom: 0px;
+}
+#signUpBtn:hover,
+#button1:hover {
+  transform: translateX(2px) translateY(-2px);
+  transition: transform 0.4s;
+}
+/* content */
+#content {
+  background-color: rgb(255, 253, 247);
+}
+
+#cs {
+  color: rgb(77, 77, 246);
+  text-decoration: none;
+}
+.mealPlan {
+  height: 625px;
+  text-align: center;
+  padding: 63px 0px;
+}
+
+#mealHeading {
+  font-size: 40px;
+  margin-top: 0;
+  color: #303030;
+}
+
+.mealPlan > p {
+  font-size: 13.9px;
+  margin-top: -40px;
+  padding: 0px 320px;
+  color: rgb(51, 51, 51);
+  font-weight: 500;
+}
+
+#span1 {
+  color: rgb(53, 116, 113);
+  font-weight: bold;
+}
+
+#span2 {
+  font-weight: bold;
+}
+.table {
+  border-left: 1px solid #d4d0d0;
+  border-top: 1px solid #d4d0d0;
+  margin-left: 17%;
+  float: left;
+  margin-top: -530px;
+  font-family: FavoritFreshly, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.row {
+  clear: both;
+  overflow: hidden;
+}
+.cell {
+  border-right: 1px solid #d4d0d0;
+  border-bottom: 1px solid #d4d0d0;
+  float: left;
+  width: 100px;
+  height: 68px;
+  text-align: center;
+  padding-top: 3%;
+  color: #303030;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cell > span {
+  color: #357471;
+  font-size: 12.2px;
+  line-height: 18px;
+  margin: 5px 0px 0px;
+}
+p {
+  text-align: center;
+  margin-top: 0px;
+}
+s {
+  color: rgb(189, 184, 184);
+}
+/* Shipping line Color */
+.adv > div {
+  font-weight: 550;
+  font-size: 14px;
+  color: teal;
+}
+
+/* button */
+.adv {
+  margin: auto;
+  text-align: center;
+  margin-top: -300px;
+}
+#btn2 {
+  cursor: pointer;
+  background-color: #2a6dff;
+  border: none;
+  padding: 12px 65px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+/* Hover effect for cells */
+.cell:hover {
+  background-color: #cce2e1;
+}
+/* Footer */
+
+.plan-menu-dropdown-div {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.mealPlan {
+  height: 625px;
+  text-align: center;
+  padding: 63px 0px;
+}
+
+#mealHeading {
+  font-size: 2.9em;
+  margin-top: 2px;
+  margin-bottom: 42px;
+  padding-bottom: 5px;
+}
+
+.mealPlan > p {
+  font-size: 13.9px;
+  margin-top: -35px;
+  padding: 0px 410px;
+  color: rgb(51, 51, 51);
+  font-weight: 500;
+}
+
+#span1 {
+  color: rgb(53, 116, 113);
+  font-weight: bold;
+}
+
+#span2 {
+  font-weight: bold;
+}
+
+.planContainer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  height: 212px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.planContainer > div > img {
+  width: 224px;
+}
+
+.planContainer > div > .savingbox {
+  background-color: rgb(133, 229, 198);
+  font-size: 0.85em;
+  font-weight: bold;
+  color: rgb(51, 51, 51);
+  width: 113px;
+  border-radius: 50px;
+  padding: 3px 0px 1px;
+  position: absolute;
+  top: 10px;
+  left: 8px;
+}
+
+.planContainer > div {
+  position: relative;
+}
+
+.planContainer > div > #mealHeading {
+  color: rgb(53, 116, 113);
+  font-size: 1.7em;
+}
+
+#shipText {
+  color: rgb(53, 116, 113);
+  font-weight: bold;
+  margin-top: -40px;
+  margin-bottom: 30px;
+}
+
+#planBtn {
+  padding: 14px 15px;
+  font-size: 1.1em;
+  color: white;
+  background-color: rgb(49, 103, 255);
+  border: 1px solid rgb(49, 103, 255);
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+.flax-parent-meals {
+  display: flex;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.meals-div {
+  width: 23.5%;
+  text-align: left;
+  padding: 8px;
+  color: rgb(22, 24, 22);
+  text-decoration: none;
+  margin: 8px;
+  cursor: pointer;
+}
+.meals-card {
+  width: 100%;
+  color: rgb(16, 19, 16);
+  text-align: left;
+  text-decoration: none;
+  cursor: pointer;
+}
+.imgbox {
+  width: 100%;
+  overflow: hidden;
+  height: 287px;
+  border-radius: 16px;
+}
+.imgbox:hover {
+  transform: scale(1.1);
+}
+.namebox {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px;
+}
+.mealbox {
+  line-height: 0em;
+  color: grey;
+  margin-bottom: -8px;
+}
+.secondDiv {
+  height: 570px;
+  text-align: center;
+  background-color: rgb(255, 253, 247);
+  border: 1px solid rgb(255, 253, 247);
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -20px;
+  padding: 0px 30px;
+}
+
+h2 {
+  font-size: 3em;
+  color: rgb(51, 51, 51);
+  padding: 17px 0px 0px;
+}
+
+#gif {
+  width: 200px;
+  height: 145px;
+}
+
+h3 {
+  font-size: 1.4em;
+  color: rgb(51, 51, 51);
+}
+
+.container > div > p {
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  color: rgb(51, 51, 51);
+  margin-top: -10px;
+}
+a {
+  color: blue;
+  font-weight: bold;
+}
+#accordion-body {
+  width: 85%;
+  margin: auto;
+}
+
+.accordion-button {
+  color: rgb(108, 108, 236);
+  font-weight: bold;
+}
+.onthemenu {
+  margin-top: 150px;
+  font-weight: bold;
+}
+.faq {
+  text-align: center;
+  color: black;
+}
+.visitFAQs {
+  font-size: 15px;
+  margin-left: 47%;
+}
+
+.lastDiv {
+  height: 388px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 64px 213px;
+  justify-content: center;
+}
+
+.lastDiv > div {
+  width: 273px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  font-size: 0.78em;
+  color: rgb(104, 103, 103);
+}
+
+.lastDiv > div > a {
+  color: rgb(104, 103, 103);
+  text-decoration: none;
+}
+
+.lastDiv > div > p {
+  font-size: 1.2em;
+  color: black;
+  margin-bottom: 7px;
+  margin-top: 0px;
+}
+
+#div1 {
+  padding: 0px 79px;
+  width: 100%;
+}
+
+#div2 {
+  padding: 0px 99px;
+}
+
+#div3 {
+  padding: 0px 95px;
+}
+
+#div4 {
+  padding: 0px 69px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#lastImg {
+  width: 16px;
+  margin-right: 14px;
+}
+
+#blackImg {
+  width: 120px;
+}
+
+#div3 {
+  padding: 0px 95px;
+}
+
+#div4 {
+  padding: 0px 69px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#lastImg {
+  width: 16px;
+  margin-right: 14px;
+}
+
+#blackImg {
+  width: 120px;
+}

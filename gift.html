@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Prepared Meals as a Gift | Freshly Gift Cards</title>
+    <link rel="shortcut icon"
+    href="https://assets-global.website-files.com/5d03b4e130118314af624b20/5ff746968ef71d4c780bf4a6_favicon_core.png"
+    type="image/x-icon">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"  />
+    <style>
+
+.preNav {
+  height: 33px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.leftDiv {
+  width: 100px;
+  padding: 7px 2px;
+  border-bottom: 2px solid rgb(3, 81, 78);
+  margin-right: -8px;
+}
+
+.rightDiv {
+  width: 150px;
+  padding: 7px 2px;
+}
+
+#icon1 {
+  height: 11px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px 20px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(255,253,247);
+  z-index: 1;
+}
+
+#navImg {
+  height: 24px;
+  margin-top: -1px;
+  padding-left: 1px;
+}
+
+#navLinks {
+  display: flex;
+  margin-left: -25px;
+}
+
+#navLinkBox {
+  text-decoration: none;
+  padding: 0px 18px;
+  color: rgb(48, 48, 48);
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+#navLinkBox:hover {
+  color: rgb(49, 103, 255);
+}
+
+#setup {
+  display: flex;
+}
+
+#login {
+  text-decoration: none;
+  font-size: 0.8em;
+  margin-right: 17px;
+  color: black;
+  font-weight: bold;
+}
+
+#signUpBtn {
+  background-color: rgb(49, 103, 255);
+  color: white;
+  text-decoration: none;
+  border: 1px solid rgb(49, 103, 255);
+  padding: 7px 9px;
+  font-size: 1em;
+  margin-top: -8px;
+  cursor: pointer;
+  letter-spacing: .5px;
+}
+
+#signUpBtn:hover {
+  transform: translateX(2px) translateY(-2px);
+  transition: transform 0.4s;
+}
+
+#firstDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+a{
+  font-size: 13px;
+  font-family: Favoritfreshly,sans-serif;
+}
+
+        #box{
+            /* border: 1px solid red; */
+            width: 100%;
+            height: 500px;
+            margin-top: 10px;
+            display: flex;
+        }
+        #box1{
+            /* border: 1px solid green; */
+            height: 100%;
+            width: 48%;
+        }
+
+        #box2{
+            /* border: 1px solid blue; */
+            height: 100%;
+            width: 50%;
+            justify-content: flex-end;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        h1{
+            margin: 130px 80px 0 50px;
+            font-size: 45px;
+            font-weight: bold;
+            color: #333;
+            font-family: Favoritfreshly,sans-serif;
+        }
+        p{
+            margin: 20px 0 40px 50px;
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+            font-family: Favoritfreshly,sans-serif;
+        }
+        .button1{
+            background-color: rgb(49,103,255);
+            color: white;
+            border: 0;
+            padding: 5px;
+            width: 150px;
+            height: 45px;
+            margin-left: 50px;
+            font-family: Favoritfreshly,sans-serif;
+            font-size: 18px;
+        }
+        .button1:hover {
+            transform: translateX(2px) translateY(-2px);
+            transition: transform 0.4s;
+        }
+        .button2{
+            background-color: white;
+            color: rgb(49,103,255);
+            border: 1px solid rgb(49,103,255);
+            padding: 5px;
+            width: 150px;
+            height: 45px;
+            margin-left: 20px;
+            font-family: Favoritfreshly,sans-serif;
+            font-size: 18px;
+        }
+        .button2:hover {
+            transform: translateX(2px) translateY(-2px);
+            transition: transform 0.4s;
+        }
+        #box3{
+            /* border: 1px solid black; */
+            margin-top: 50px;
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            grid-template-rows: 500px;
+            background-color: rgb(255,253,247);
+        }
+        /* #innerbox1{
+            /* border: 1px solid brown;      */
+        /* } */ 
+        h2{
+            font-size: 35px;
+            text-align: center;
+            font-family: Favoritfreshly, sans-serif;
+            color: #333;
+        }
+        #divimg{
+            width: 200px;
+            height: 175px;
+            margin-top: 150px;
+            margin-left: 120px;
+            border: 0;
+        }
+        #divimgmid{
+            width: 200px;
+            height: 175px;
+            margin-top: 100px;
+            margin-left: 120px;
+        }
+        #para1{
+            font-size: 24px;
+            font-family: Favoritfreshly, sans-serif;
+            color: #333;
+            margin-left: 85px;
+        }
+        #para2{
+            font-size: 13px;
+            font-family: Favoritfreshly,sans-serif;
+            color: #333;
+            font-weight: lighter;
+            text-align: center;
+            margin-right: 20px;
+        }
+        #box4{
+            /* border: 1px solid blue; */
+            width: 100%;
+            height: 600px;
+            margin-top: 50px;
+        }
+        #topbox{
+            /* border: 1px solid brown; */
+            width: 45%;
+            height: 30%;
+            margin-left: 350px;
+        }
+        #downpara{
+            font-size: 13px;
+            font-family: Favoritfreshly,sans-serif;
+            color: #333;
+            font-weight: lighter;
+            text-align: center;
+            line-height: 24px;
+        }
+        #downbox{
+            /* border: 1px solid green; */
+            width: 1000px;
+            height: 68%;
+            display: grid;
+            grid-template-columns: repeat(3,300px);
+            grid-gap: 40px;
+            margin-top: 20px;
+            margin-left: 200px;
+        }
+        #image1{
+            width: 280px;
+            height: 242px;
+        }
+        #name1{
+            font-size: 24px;
+            font-family: Favoritfreshly,sans-serif;
+            text-align: center;
+            margin-bottom: 14px;
+            color: #333;
+        }
+        #box5{
+            border: 1px solid white;
+            width: 100%;
+            height: 950px;
+            margin: 20px 0 0 0;
+            background-image :url("https://assets-global.website-files.com/5d03b4e130118314af624b20/5e30a587053c9833fca0091e_bg.jpg");
+        }
+        #innerbox5{
+            border: 1px solid white;
+            width: 70%;
+            height: 810px;
+            background-color: white;
+            margin: auto;
+            margin-top: 60px;
+        }
+        #innercontent{
+            /* border: 1px solid red; */
+            width: 80%;
+            height: 150px;
+            margin: auto;
+            margin-top: 30px;
+        }
+        #innercontent1{
+          /* border: 1px solid blue; */
+          width: 85%;
+          height: 480px;
+          margin: auto;
+          margin-top: 10px;
+          display: grid;
+          grid-template-columns: repeat(4,1fr);
+          grid-template-rows: repeat(2,225px);
+          grid-gap: 31px;
+        }
+        #innerdivimage{
+          width: 180px;
+          height: 121px;
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+        #innerdiv2{
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          border-radius: 10px;
+        }
+        #innerpara2{
+          font-size: 15px;
+          font-family: Favoritfreshly,sans-serif;
+          color: #333;
+          margin-left: 20px;
+        }
+        #givefreshlybttn{
+          color: white;
+          background-color: rgb(49,103,255);
+          border: 0;
+          width: 150px;
+          height: 45px;
+          font-family: Favoritfreshly,sans-serif;
+          font-size: 18px;
+          margin: 40px 0 0 400px;
+        }
+        #givefreshlybttn:hover {
+            transform: translateX(2px) translateY(-2px);
+            transition: transform 0.4s;
+        }
+        #question{
+            margin: 0px;
+            width: 100%;
+            font-family: Favoritfreshly, sans-serif;
+            font-weight: 400;
+        }
+#mainheading {
+  margin: 0 0 24px;
+  color: #333;
+  font-size: 50px;
+  line-height: 1.08em;
+}
+#heading1 {
+  font-size: 3em;
+  color: rgb(51, 51, 51);
+  padding: 17px 0px 0px;
+}
+
+
+h3 {
+  font-size: 1.4em;
+  color: rgb(51, 51, 51);
+}
+
+a {
+  color: blue;
+  font-weight: bold;
+}
+#accordion-body {
+  width: 85%;
+  margin: auto;
+}
+
+.accordion-button {
+  color: rgb(108, 108, 236);
+  font-weight: bold;
+}
+.onthemenu {
+  margin-top: 150px;
+  font-weight: bold;
+}
+.faq {
+  text-align: center;
+  color: black;
+}
+.visitFAQs {
+ font-size: 15px;
+  margin-left: 47%;
+}
+
+.lastDiv {
+  height: 388px;
+  box-sizing: border-box;
+  display: flex;
+  padding: 64px 213px;
+  justify-content: center;
+}
+
+.lastDiv > div {
+  width: 273px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  font-size: 0.78em;
+  color: rgb(104, 103, 103);
+}
+
+.lastDiv > div > a {
+  color: rgb(104, 103, 103);
+  text-decoration: none;
+}
+
+.lastDiv > div > p {
+  font-size: 1.2em;
+  color: black;
+  margin-bottom: 7px;
+  margin-top: 0px;
+}
+
+#div1 {
+  padding: 0px 79px;
+  width: 100%;
+}
+
+#div2 {
+  padding: 0px 99px;
+}
+
+#div3 {
+  padding: 0px 95px;
+}
+
+#div4 {
+  padding: 0px 69px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#lastImg {
+  width: 16px;
+  margin-right: 14px;
+}
+
+#blackImg {
+  width: 120px;
+}    
+    </style>
+</head>
+<body>
+  <div class="preNav">
+    <div class="leftDiv">
+        <a href="home.html">
+            <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg"
+                id="icon1">
+        </a>
+    </div>
+    <div class="rightDiv">
+        <a href="businessHome.html">
+            <img src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5f7b2e5362c26e009ed80a5a_bizlogo_gray-09.svg"
+                id="icon2">
+        </a>
+    </div>
+</div>
+<div class="navbar">
+    <div id="navImg">
+        <a href="home.html">
+            <img id="navImg"
+                src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg">
+        </a>
+    </div>
+    <div id="navLinks">
+        <div>
+            <a href="plans&Menu.html" id="navLinkBox">Plans & Menu</a>
+        </div>
+        <div>
+            <a href="howItWorks.html" id="navLinkBox">How it Works</a>
+        </div>
+        <div>
+            <a href="gifts.html" id="navLinkBox">Gifts</a>
+        </div>
+        <div>
+            <a href="referAFriend.html" id="navLinkBox">Refer a Friend</a>
+        </div>
+        <div>
+            <a href="help.html" id="navLinkBox">Help</a>
+        </div>
+    </div>
+    <div id="setup">
+        <div>
+            <a id="login" href="login.html">Login</a>
+        </div>
+        <div>
+            <button id="signUpBtn">Sign Up</button>
+        </div>
+    </div>
+</div>
+</div>
+    <div id="container">
+        
+
+        <div id="box">
+            <div id="box1">
+                <div id="innerbox1"></div>
+                <div id="innerbox2">
+                    <button class="button1">Give Freshly</button>
+                    <button class="button2">Redeem Gift</button>
+                </div>
+            </div>
+            
+        </div>
+
+        <div id="box3"></div>
+        <div id="box4">
+            <div id="topbox"></div>
+            <div id="downbox"></div>
+        </div>
+        <div id="box5">
+            <div id="innerbox5">
+                <div id="innercontent"></div>
+                <div id="innercontent1"></div>
+                <button id="givefreshlybttn">Give Freshly</button>
+            </div>
+            
+        </div>
+    </div>
+        </div>
+    </div>
+
+    <div id="question">
+        <div>
+            <h1 id="mainheading"style="text-align: center;font-weight: bold;font-size: 50px;">Common Questions</h1>
+          </div>
+          <br/>
+          <div id="accordion-body">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item" style="border: 0px ;border-bottom:1px solid rgba(0,0,0,.125);">
+                <h2 class="accordion-header" id="headingOne">
+                  <button style="color: blue;"
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="false"
+                    aria-controls="collapseOne"
+                  >
+                    How many servings are your meals ?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingOne"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    The majority of our meals are single serving and meant to feed an
+                    average adult. We also offer multi-serve proteins and sides, which
+                    are designed to feed multiple people for extra mealtime
+                    flexibility. These delicious, ready-to-heat options can help you
+                    bulk up existing meals, simplify home cooking, or even build an
+                    entire meal—the choice is yours!<br />
+                    <br />
+                     Our 6-meal plan is perfect for a person looking for 6 dinners
+                    (or lunches!) a week. On average, our meals weigh in at about 13
+                    ounces and range from 300 to 650 calories. If you have a larger
+                    household, we do offer a 12 meal per week subscription (it's
+                    perfect for couples or a family of 4 looking for 3 meals per
+                    week). Plus, you can always order multiple subscriptions.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item" style="border: 0px ;border-bottom:1px solid rgba(0,0,0,.125);">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button style="color: blue;"
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Do you accommodate dietary preferences ?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingTwo"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    We accommodate a variety of dietary preferences, including plenty
+                    of gluten-free, dairy-free, peanut-free, plant-based, low-calorie,
+                    and carb-conscious options. As a customer, you can set your own
+                    dietary preferences and easily find the meals that work for you.
+                    You can also check out individual ingredient lists for each dish
+                    if you have specific concerns, or contact us at
+                    <a href="support@freshly.com">support@freshly.com</a>for help making selections. If
+                    you're unable to place an order that fits your preferences now, be
+                    sure to check back frequently as we're always adding new and
+                    exciting dishes.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item" style="border: 0px ;border-bottom:1px solid rgba(0,0,0,.125);">
+                <h2 class="accordion-header" id="headingThree">
+                  <button style="color: blue;"
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    How long do the meals last ?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Our meals are chef prepared and delivered fresh, so typically they
+                    have a refrigerated shelf life of about 3-5 days. Select items
+                    (such as seafood) are best eaten first, so we'll add a badge on
+                    the package to let you know. We usually suggest enjoying these
+                    meals within the first few days of receiving your order, but you
+                    can always check their exact use-by date on the back-of-pack
+                    nutrition label. If you're ever unable to finish your meals within
+                    their shelf life, you can always pop them into the freezer for
+                    extended storage. Just be sure to microwave your meal straight
+                    from the freezer and add a few extra minutes to reach the 165° F
+                    internal temperature we recommend.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item" style="border: 0px ;border-bottom:1px solid rgba(0,0,0,.125);">
+                <h2 class="accordion-header" id="headingfour">
+                  <button style="color: blue;"
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapsefour"
+                    aria-expanded="false"
+                    aria-controls="collapsefour"
+                  >
+                    How do I heat up my meals ?
+                  </button>
+                </h2>
+                <div
+                  id="collapsefour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingfour"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Your meals will come to you fully prepared so you just have to heat 'em up in the microwave. On the back of each meal, you'll find our easy steps for heating, but generally, the meals heat up in about 3 minutes (depending on your microwave). If you're unsure, start at 2 minutes and heat in 30–second increments until the meal reaches an inner temperature of 165° F. Our meals are packaged to be heated in the microwave (for the ultimate convenience), but you can heat them in the oven if you’d like. Just so you know, our current meal containers aren’t safe for the oven or stovetop, so you’ll have to transfer your food to heat it up. You can check out the full oven reheat directions in our <a href="FAQs.com">FAQs</a>.
+                  </div>
+                </div>
+                </div>
+              </div>
+                <div class="accordion-item" style="border: 0px ;border-bottom:1px solid rgba(0,0,0,.125);">
+                  <h2 class="accordion-header" id="headingFive">
+                    <button style="color: blue;"
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      How does shipping work ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFive"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      To help guarantee your meals arrive in the freshest condition, there is a small shipping fee associated with your order. We deliver to all states within the continental U.S., and our shipping partners offer delivery every day of the week. The exact days that we can reach you will depend on your ZIP code and the carrier delivering your Freshly meals. Whether you're signing up or updating your typical delivery day, we'll show you all the days available to you so you can choose what's best for you.
+                    </div>
+                  </div>
+                </div><div class="accordion-item" style="border: 0px ;border-bottom:1px solid rgba(0,0,0,.125);">
+                  <h2 class="accordion-header" id="headingSix">
+                    <button style="color: blue"
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSix"
+                      aria-expanded="false"
+                      aria-controls="collapseSix"
+                    >
+                      How does subscription work ?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseSix"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingSix"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      Every week you get to pick your selection of meals from our weekly rotation of 50+ options. Choose any number of meals between 4 and 12 per week, with prices starting at $11.79/meal. You'll pick the most convenient delivery day for you, and we'll ship your chef-cooked meals right to your doorstep! If you ever need to skip or cancel a week, or size your order up or down, it's easy to make changes to your upcoming delivery before the weekly deadline.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    <br/>
+    <br/>
+    <br/>
+    <h2 class="faq">Have other questions?</h2>
+    <a href="Visit Our FAQs.com" class="visitFAQs">Visit Our FAQs</a>
+    <br/>
+    <br/>
+    <br/>
+    <hr>
+    
+    <div class="lastDiv">
+        <div id="div1">
+            <img
+                src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5fc4feea074f5b86a6c62285_freshly-logo-R.svg">
+            <a>© Freshly Inc.</a>
+        </div>
+        <div id="div2">
+            <p>Company</p>
+            <a href="">Careers</a>
+            <a href="">Contact Us</a>
+            <a href="">Press</a>
+            <a href="">Terms</a>
+            <a href="">Privacy</a>
+            <a href="">Affiliates</a>
+            <a href="">Partnerships</a>
+        </div>
+        <div id="div3">
+            <p>Learn More</p>
+            <a href="plans&Menu.html">Plans & Menu</a>
+            <a href="">Why Freshly?</a>
+            <a href="">Gifts</a>
+            <a href="">FAQs</a>
+            <a href="">Blogs</a>
+            <a href="">Students</a>
+        </div>
+        <div id="div4">
+            <p>Join Us</p>
+            <div>
+                <a href="">
+                    <img id="lastImg"
+                        src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5f52423bbc67c09879c5a19b_5d795c37fedbb6017d824b02_icons8-facebook-old-30.jpg">
+                </a>
+                <a href="">
+                    <img id="lastImg"
+                        src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5f52423ad92101de48f410c7_5d10dfc0ef515f74b875a42c_icons8-instagram-50.jpg">
+                </a>
+                <a href="">
+                    <img id="lastImg"
+                        src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5f52423bd050163202b341e8_5d10dfc00442bfc99d3d6828_icons8-twitter-filled-50.jpg">
+                </a>
+                <a href="">
+                    <img id="lastImg"
+                        src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5f52423a6b26e039d505425e_5d10dfbfef515faad975a42b_icons8-pinterest-filled-50.jpg">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img id="blackImg"
+                        src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d6439d4fb92e7630e46976b_Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg">
+                </a>
+            </div>
+            <div>
+                <a href="">
+                    <img  id="blackImg"
+                        src="https://assets-global.website-files.com/5d03b4e130118314af624b20/5d643dd558306bfe1df5ef8b_google-play-badge.png">
+                </a>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <br/>
+    <br/>
+</div>
+
+</body>
+</html>
+<script>
+
+    var h1 = document.createElement('h1');
+    h1.textContent="Perfect to Give. Delicious to Receive.";
+
+    var p = document.createElement('p');
+    p.textContent="And far more nutritious than tchotchkes.";
+
+    document.querySelector("#innerbox1").append(h1,p);
+
+    var div2 = document.createElement('div');
+    div2.setAttribute("id","box2");
+
+    var img = document.createElement('img');
+    img.setAttribute("src","https://assets-global.website-files.com/5d03b4e130118314af624b20/60928e2ceb6cb2368a43ad07_Freshly_GiftCardRedemption_1732x1416%20(1).jpg");
+    
+    div2.append(img);
+
+    document.querySelector("#box").append(div2);
+
+    var seconddiv1 = document.createElement('div');
+
+    var divimg1 = document.createElement('img');
+    divimg1.setAttribute("src","https://lh3.googleusercontent.com/xU1Wb5I88574ZQwBUfxFQcCa0wS2yXNRwov935zhyf0JZ-ZjUtBMvGZBkS4YT-S5AgphHDOD2rQmSI7P48izWDyIjys9Csg0yhCAHv0y");
+    divimg1.setAttribute("id","divimg");
+
+    var firstpara1 = document.createElement('h3');
+    firstpara1.textContent="You choose the plan size";
+    firstpara1.setAttribute("id","para1");
+
+    var firstpara2 = document.createElement('p');
+    firstpara2.textContent="Your gift starts their subscription on a free note by covering your recipient's first delivery of fresh meals."
+    firstpara2.setAttribute("id","para2")
+
+    seconddiv1.append(divimg1,firstpara1,firstpara2);
+
+    var seconddiv2 = document.createElement('div');
+
+    var h2 = document.createElement('h2');
+    h2.textContent="How the Gift Works"
+
+    var divimg2 = document.createElement('img');
+    divimg2.setAttribute("src","https://lh3.googleusercontent.com/OHmeESwkh-OPpboLV1PPJAtp5fjG0fXRrSYsZaj0ap-Y-lpfU0arj-Ih2pkcaOwyCjN1fi1KD4D1CdLwhDZDqbs9Q6oi016-4AkveWGv");
+    divimg2.setAttribute("id","divimgmid"); 
+    
+    var secondpara1 = document.createElement('h3');
+    secondpara1.textContent="They take it from there";
+    secondpara1.setAttribute("id","para1");
+
+    var secondpara2 = document.createElement('p');
+    secondpara2.textContent="Your recipient will pick their first box of meals and set up their deliveries."
+    secondpara2.setAttribute("id","para2")
+
+    seconddiv2.append(h2,divimg2,secondpara1,secondpara2);
+
+    var seconddiv3 = document.createElement('div');
+
+    var divimg3 = document.createElement('img');
+    divimg3.setAttribute("src","https://lh3.googleusercontent.com/B3AQnW_7UShaNvvkI_bnlSXWCA9LAQGKwzJmjBOSb0XL68Rm6gX2Q-xELoFpuG60Cpsgald5--a1KdBorFTI3N633BJ19oAM6tGiZYnu");
+    divimg3.setAttribute("id","divimg");
+
+    var thirdpara1 = document.createElement('h3');
+    thirdpara1.textContent="We cook and deliver";
+    thirdpara1.setAttribute("id","para1");
+
+    var thirdpara2 = document.createElement('p');
+    thirdpara2.textContent="We cook their meals and send them directly to their door. After this first box, they can skip deliveries or cancel their subscription anytime."
+    thirdpara2.setAttribute("id","para2")
+
+    seconddiv3.append(divimg3,thirdpara1,thirdpara2);
+
+    document.querySelector("#box3").append(seconddiv1,seconddiv2,seconddiv3);
+
+    var toppara = document.createElement('h2')
+    toppara.textContent="Eating is On Everyone's List";
+
+    var downpara = document.createElement('p');
+    downpara.textContent="Freshly delivers chef-cooked meals perfect for friends and family that least expect it, but might need it the most. With no cooking, cleaning, shopping, each meal you give is one less thing for them to worry about.";
+    downpara.setAttribute("id","downpara");
+
+    document.querySelector("#topbox").append(toppara,downpara);    
+
+    var Divdata = [
+    {
+      image:
+        "https://assets-global.website-files.com/5d03b4e130118314af624b20/5da1020e8c4ffd7f66ed273a_shutterstock-536517748%402x.jpg",
+      name: "Perfect for New Parents",
+      para: "Help them feed a new mouth (or two or three) by feeding theirs",
+    },
+    {
+      image:
+        "https://assets-global.website-files.com/5d03b4e130118314af624b20/5da1021b621f6c2f2e043f9e_shutterstock-229409923%402x.jpg",
+      name: "Someone Who Needs Some TLC",
+      para: "So your sick or injured friends can just focus on feeling better.",
+    },
+    {
+      image:
+        "https://assets-global.website-files.com/5d03b4e130118314af624b20/5da10232eda8426ae2d935f0_working-lunch-risotto-0035%402x.jpg",
+      name: " Or the Dawn to Dusker",
+      para: "They're starting businesses and new jobs. You're there to help with healthy meals",
+    }];
+     
+    Divdata.map(function(data){
+     
+    var downdiv1 = document.createElement('div');
+
+    var image1 = document.createElement('img');
+    image1.setAttribute("src",data.image);
+    image1.setAttribute("id","image1");
+
+    var name1 = document.createElement('h2');
+    name1.textContent= data.name;
+    name1.setAttribute("id","name1");
+
+    var para1 = document.createElement('p');
+    para1.textContent=data.para;
+    para1.setAttribute("id","para2");
+
+    downdiv1.append(image1,name1,para1);
+    
+    document.querySelector("#downbox").append(downdiv1);
+
+    });
+
+    var backimg = document.createElement('backgroundImage');
+    backimg.setAttribute("src","https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJXWHtnypMx59YhVXAQlF6oc9OpZU7eXz34iTmUOld6g0-bjob")
+
+    document.querySelector("#box").append(backimg);
+
+    var innerheadingh1 = document.createElement('h2');
+    innerheadingh1.textContent="The gift of choice";
+
+    var innercontentp1 = document.createElement('p');
+    innercontentp1.textContent="Variety is the spice of life—and we've got plenty when it comes to our meals."
+    innercontentp1.setAttribute("id","para2"); 
+
+
+    document.querySelector("#innercontent").append(innerheadingh1,innercontentp1); 
+
+    var Innerdivdata = [
+    {
+      image:
+        "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61063fef3319dbcfa7088dc3_production-meal-image-29fee2e7-8e88-4cd3-aad9-0e7d25671f7f.jpeg",
+      para: "Steak Peppercorn",
+    },
+    {
+      image:
+        "data:image/jpeg;base64,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",
+      para: "Homestyle Chicken",
+    },
+    {
+      image:
+        "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61e3bbfab125b6b21baf1ac9_production-meal-image-c9eef45a-97a9-487c-9550-71488e5f639a.jpeg",
+      para: "Cauliflower Shell Beef Bolognese",
+    },
+    {
+      image:
+        "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61e3bbfee93df882573f2857_production-meal-image-92ec0fc1-d352-4720-9b83-96798ab8d2de.jpeg",
+      para: "Savory-Sweet Chicken Teriyaki Bowl",
+    },
+    {
+      image:
+        "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/610640046931cb5d54bd5472_production-meal-image-7a62bb89-9bcb-4f1f-9f0f-d8372698d48e.jpeg",
+      para: "Protein-Packed Chicken Parm",
+    },
+    {
+      image:
+        "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61e3bc067781d935ac589515_production-meal-image-bc1b24c8-f62a-4756-a40e-173a8b67a590.jpeg",
+      para: "Golden Oven-Fried Chicken & Mash",
+    },
+    {
+      image:
+        "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/6106400aa25771202335c782_production-meal-image-1a05b254-2fc5-4eec-9cec-5b1cde753c06.jpeg",
+      para: "Chicken Livorno",
+    },
+    {
+      image:
+        "https://assets-global.website-files.com/5d03b4e13011831ae4624b37/61e3bc0c28709f5aed230b12_production-meal-image-ef64cbd3-cc91-4c5f-9865-b9ff0442572e.jpeg",
+      para: "Zingy Buffalo Chicken",
+    }];
+    
+    Innerdivdata.map(function(data){
+
+      var innerdiv2 = document.createElement('div');
+      innerdiv2.setAttribute("id","innerdiv2");
+      
+      var innerdivimage = document.createElement('img');
+      innerdivimage.setAttribute("src",data.image);
+      innerdivimage.setAttribute("id","innerdivimage");
+
+      var innerpara2 = document.createElement('h3');
+      innerpara2.textContent=data.para;
+      innerpara2.setAttribute("id","innerpara2");
+
+      innerdiv2.append(innerdivimage,innerpara2);
+
+      document.querySelector("#innercontent1").append(innerdiv2);
+
+    });
+
+    document.querySelector("#signUpBtn").addEventListener("click",function()
+    {
+        window.location.href="signUp.html";
+    });
+
+    document.querySelector("#container").append(div);
+
+   
+</script>

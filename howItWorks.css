@@ -1,0 +1,501 @@
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: Favoritfreshly, sans-serif;
+  font-weight: 400;
+}
+
+.preNav {
+  height: 33px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.leftDiv {
+  width: 100px;
+  padding: 7px 2px;
+  border-bottom: 2px solid rgb(3, 81, 78);
+  margin-right: -8px;
+}
+
+.rightDiv {
+  width: 150px;
+  padding: 7px 2px;
+}
+
+#icon1 {
+  height: 11px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px 20px;
+  position: sticky;
+  top: 0;
+  background-color: rgb(255, 253, 247);
+  z-index: 1;
+}
+
+#navImg {
+  height: 24px;
+  margin-top: -1px;
+  padding-left: 1px;
+}
+
+#navLinks {
+  display: flex;
+  margin-left: -25px;
+}
+
+#navLinkBox {
+  text-decoration: none;
+  padding: 0px 18px;
+  color: rgb(48, 48, 48);
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+#navLinkBox:hover {
+  color: rgb(49, 103, 255);
+}
+
+#setup {
+  display: flex;
+}
+
+#login {
+  text-decoration: none;
+  font-size: 0.8em;
+  margin-right: 17px;
+  color: black;
+  font-weight: bold;
+}
+
+#signUpBtn {
+  background-color: rgb(49, 103, 255);
+  color: white;
+  text-decoration: none;
+  border: 1px solid rgb(49, 103, 255);
+  padding: 7px 9px;
+  font-size: 1em;
+  margin-top: -8px;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+}
+
+#signUpBtn:hover,
+#button1:hover {
+  transform: translateX(2px) translateY(-2px);
+  transition: transform 0.4s;
+}
+
+h1 {
+  font-size: 42px;
+  font-weight: 700;
+  font-style: normal;
+  color: #333333;
+  text-align: center;
+  padding: 35px 30px;
+}
+/* Navbar 2 */
+.anchor-link {
+  color: rgb(113, 113, 113);
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  gap: 16px;
+  padding: 12px;
+  flex-direction: column;
+  font-weight: bold;
+}
+.navbar2 {
+  text-align: center;
+  position: sticky;
+  padding: 10px;
+  border-bottom: 1px solid #ababab;
+  top: 71.4px;
+  background-color: white;
+}
+.anchor-link:hover {
+  background-color: #ededed;
+}
+#title {
+  margin-top: 20px;
+}
+/* #title {
+  color: #333333;
+  font-family: Favoritfreshly, sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 51.84px;
+  text-align: center;
+  padding: -10px;
+} */
+h2 {
+  font-weight: 700;
+  font-family: Favoritfreshly, sans-serif;
+  margin-top: -20px;
+  font-size: 34px;
+  color: #333333;
+  padding-bottom: -10px;
+}
+.section {
+  background-color: #fffdf7;
+  color: #333333;
+  font-family: Favoritfreshly, sans-serif;
+  text-align: center;
+  padding: 64px 32px;
+}
+#text2 {
+  font-family: Favoritfreshly, sans-serif;
+  color: #333333;
+  font-size: 13px;
+  margin-top: -15px;
+}
+#video {
+  padding-top: 25px;
+  width: 100%;
+  height: 100%;
+}
+#subsection {
+  padding-top: 32px;
+  text-align: center;
+  margin-top: 20px;
+  z-index: 1;
+}
+.sub-title {
+  color: #333333;
+  padding-top: 10px;
+  margin: 10px 0 0 0;
+}
+.para {
+  color: #535353;
+  font-size: 13px;
+  margin-top: -15px;
+  font-weight: 550;
+  padding-top: 15px;
+  z-index: 1;
+}
+#images3 {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  gap: 5%;
+  padding: 52px 80px 52px 80px;
+}
+h4 {
+  color: #333333;
+  font-size: 20px;
+  margin: 0 0 8px;
+}
+p {
+  color: #544333;
+  font-size: 12px;
+  margin-top: 0px;
+  font-weight: 550;
+}
+#button1 {
+  background-color: rgb(49, 103, 255);
+  color: white;
+  padding: 13px 16px 12px;
+  box-shadow: none;
+  border-style: none;
+  cursor: pointer;
+  letter-spacing: 0.5px;
+  font-weight: 550;
+  margin-top: -15px;
+}
+.zig-zag {
+  margin-top: 20px;
+  padding-top: 20px;
+  display: flex;
+  height: 260px;
+  padding-left: 40px;
+  margin-left: 40px;
+  justify-content: space-around;
+  z-index: 1;
+  /* border: 1px solid red; */
+}
+/* 3 Images - col */
+.pic1 {
+  margin-left: 15px;
+  width: 450px;
+  height: 290px;
+  padding-bottom: 50px;
+  margin-bottom: 15px;
+}
+
+#para {
+  margin-block-start: 16px;
+  width: 38%;
+  position: relative;
+  left: -125px;
+  top: 20px;
+  font-size: 20px;
+}
+/* Learn More */
+#para > a {
+  font-size: 13px;
+  margin-left: 2px;
+}
+#para > h3 {
+  padding-top: 18px;
+  font-size: 25px;
+  font-weight: 700;
+}
+p + a {
+  color: #6d67ff;
+  text-decoration: underline;
+  margin-left: -10px;
+}
+.adv {
+  margin-top: 40px;
+}
+/*  banner button */
+#btn2 {
+  background-color: #3167ff;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-style: none;
+  align-items: center;
+  margin-left: 42%;
+  margin-top: 10%;
+}
+#btn2 > a {
+  color: white;
+}
+/* Banner */
+#work {
+  background-color: #fffdf7;
+}
+#work > div:nth-child(1) {
+  width: 100%;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 300px;
+  background-image: url("https://assets-global.website-files.com/5d03b4e130118314af624b20/5ec2ac1d2f98b30604f1f132_20-spring-1-group-test-qa-1455-72-dpi.jpg");
+}
+.adv {
+  margin: 40px 5px 5px 5px;
+}
+#images3 {
+  margin: 0 120px 10px 120px;
+  gap: 75px;
+}
+#images3 > div > h4 {
+  padding-top: 15px;
+  font-size: 18px;
+}
+#subsection > #button1 {
+  margin-top: -10px;
+}
+#subsection > .sub-title2 {
+  padding-top: 30px;
+  margin-top: 45px;
+}
+#button2 {
+  background-color: rgb(49, 103, 255);
+  color: white;
+  margin-top: -55px;
+  padding: 13px 16px 12px;
+  box-shadow: none;
+  border-style: none;
+  cursor: pointer;
+  letter-spacing: 0.9px;
+  font-weight: 550;
+}
+#button2:hover {
+  transform: translateX(2px) translateY(-2px);
+  transition: transform 0.4s;
+}
+#page-end {
+  margin-top: 60px;
+  padding-top: 0px;
+  text-align: center;
+  background-color: #fffdf7;
+}
+#page-end > h1 {
+  font-size: 32px;
+}
+
+/* End Questions */
+
+#span1 {
+  color: rgb(53, 116, 113);
+  font-weight: bold;
+}
+
+#span2 {
+  font-weight: bold;
+}
+
+.planContainer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  height: 212px;
+  margin: auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.planContainer > div > img {
+  width: 224px;
+}
+
+.secondDiv {
+  height: 570px;
+  text-align: center;
+  background-color: rgb(255, 253, 247);
+  border: 1px solid rgb(255, 253, 247);
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: -20px;
+  padding: 0px 30px;
+}
+
+h2 {
+  font-size: 3em;
+  color: rgb(51, 51, 51);
+  padding: 17px 0px 0px;
+}
+
+#gif {
+  width: 200px;
+  height: 145px;
+}
+
+h3 {
+  font-size: 1.4em;
+  color: rgb(51, 51, 51);
+}
+#div1 > a {
+  margin-left: 140px;
+}
+.container > div > p {
+  font-size: 0.9em;
+  letter-spacing: 0.5px;
+  color: rgb(51, 51, 51);
+  margin-top: -10px;
+}
+a {
+  color: blue;
+  font-weight: bold;
+}
+#accordion-body {
+  width: 85%;
+  margin: auto;
+}
+
+.accordion-button {
+  color: rgb(108, 108, 236);
+  font-weight: bold;
+}
+.onthemenu {
+  margin-top: 150px;
+  font-weight: bold;
+}
+.mealPlan {
+  text-align: center;
+}
+.faq {
+  text-align: center;
+  color: black;
+}
+.visitFAQs {
+  font-size: 15px;
+  /* margin-left: 47%; */
+}
+.anotherQuestion {
+  text-align: center;
+  margin: 80px;
+}
+.anotherQuestion > h2 {
+  margin-bottom: 10px;
+  font-family: Favoritfreshly, sans-serif;
+  color: #030;
+  font-size: 32px;
+}
+
+.lastDiv {
+  height: 388px;
+  box-sizing: border-box;
+  display: flex;
+  /* padding: 64px 213px; */
+  justify-content: center;
+}
+
+.lastDiv > div {
+  width: 273px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  font-size: 0.78em;
+  color: rgb(104, 103, 103);
+}
+
+.lastDiv > div > a {
+  color: rgb(104, 103, 103);
+  text-decoration: none;
+}
+
+.lastDiv > div > p {
+  font-size: 1.2em;
+  color: black;
+  margin-bottom: 7px;
+  margin-top: 0px;
+}
+
+#div1 {
+  padding: 0px 28px;
+  width: 25%;
+}
+#div1 > img {
+  margin-left: auto;
+  width: 50%;
+}
+#div1 > a {
+  margin-left: 125px;
+}
+
+#div2 {
+  padding: 0px 99px;
+  width: 23%;
+  text-align: left;
+}
+
+#div3 {
+  padding: 0px 40px;
+  width: 20%;
+  text-align: left;
+}
+
+#div4 {
+  width: 25%;
+  padding: 0px 69px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#lastImg {
+  width: 16px;
+  margin-right: 14px;
+}
+
+#blackImg {
+  width: 120px;
+}

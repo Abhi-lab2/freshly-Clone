@@ -1,0 +1,138 @@
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: Favoritfreshly, sans-serif;
+  font-weight: 400;
+}
+
+.preNav {
+  height: 33px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.leftDiv {
+  width: 100px;
+  padding: 7px 2px;
+  border-bottom: 2px solid rgb(3, 81, 78);
+  margin-right: -8px;
+}
+
+.rightDiv {
+  width: 150px;
+  padding: 7px 2px;
+}
+
+#icon1 {
+  height: 11px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
+#navImg {
+  height: 24px;
+  margin-top: -1px;
+  padding-left: 0px;
+}
+
+#navLinks {
+  display: flex;
+  margin-left: -25px;
+}
+
+#navLinkBox {
+  text-decoration: none;
+  padding: 0px 18px;
+  color: rgb(48, 48, 48);
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+#navLinkBox:hover {
+  color: rgb(49, 103, 255);
+}
+/* Customer Support */
+#sel {
+  border: 0px;
+  color: blue;
+  font-size: 15px;
+  text-decoration: underline;
+}
+#radii > p {
+  color: blue;
+  margin-top: 0px;
+  font-size: 15px;
+  padding: 3px 0 0 7px;
+}
+#radii {
+  border: 1px solid blue;
+  width: 30px;
+  height: 25px;
+  border-radius: 45%;
+  margin-bottom: 0px;
+}
+
+#setup {
+  display: flex;
+}
+
+#cs {
+  color: rgb(77, 77, 246);
+  text-decoration: none;
+}
+
+/* Container */
+#content {
+  background-color: rgb(255, 253, 247);
+}
+.container {
+  height: auto;
+  width: 30%;
+  border-radius: 5px;
+  margin-top: 5px;
+  height: 250px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.container > div {
+  height: 40px;
+  padding-left: 20px;
+  padding-top: 15px;
+  text-align: left;
+  font-family: Helvetica;
+  border: 1px solid grey;
+}
+.container > div:hover {
+  background-color: rgb(221, 221, 221);
+}
+
+/* Button */
+
+#btn {
+  padding: 5px 175px;
+  display: flex;
+  background-color: #2a6dff;
+  border: none;
+  font-weight: 700;
+  gap: 0.6px;
+}
+button#btn {
+  margin: auto;
+}
+
+.text {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: 550;
+  color: teal;
+}

@@ -1,0 +1,206 @@
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: Favoritfreshly, sans-serif;
+  font-weight: 400;
+}
+
+.preNav {
+  height: 32px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.leftDiv {
+  width: 100px;
+  padding: 7px 2px;
+  border-bottom: 2px solid rgb(3, 81, 78);
+  margin-right: -8px;
+}
+
+.rightDiv {
+  width: 150px;
+  padding: 7px 2px;
+}
+
+#icon1 {
+  height: 11px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 40px 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+#navImg {
+  height: 24px;
+  margin-top: -1px;
+  padding-left: 1px;
+}
+
+#navLinks {
+  display: flex;
+  margin-left: -25px;
+  
+}
+.mav>a{
+  opacity: 0.3;
+}
+
+#navLinkBox {
+  text-decoration: none;
+  padding: 0px 18px;
+  color: rgb(48, 48, 48);
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+#navLinkBox:hover {
+  color: rgb(49, 103, 255);
+}
+
+#setup {
+  display: flex;
+}
+#login {
+  text-decoration: none;
+  font-size: 0.8em;
+  margin-right: 17px;
+  color: black;
+  font-weight: bold;
+}
+
+#signUpBtn {
+  background-color: rgb(49, 103, 255);
+  color: white;
+  text-decoration: none;
+  border: 1px solid rgb(49, 103, 255);
+  padding: 7px 9px;
+  font-size: 1em;
+  margin-top: -8px;
+  cursor: pointer;
+  letter-spacing: .5px;
+}
+
+#signUpBtn:hover {
+  transform: translateX(2px) translateY(-2px);
+  transition: transform 0.4s;
+}
+#container {
+  margin: auto;
+  width: 100%;
+
+  background-image: url("https://res.cloudinary.com/freshly/image/upload/c_crop,g_auto,dpr_auto,q_30,w_1500,h_900/v1494958610/joinnow-southchicken.jpg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: 1px solid;
+  /* margin-top:100px; */
+}
+h1,
+h2 {
+  /* border:1px solid red; */
+  margin: 50px 0 0 30px;
+}
+h1 {
+  font-size: 50px;
+}
+h2 {
+  font-size: 30px;
+  width: 400px;
+}
+#container > #box {
+  background-color: whitesmoke;
+  opacity: 0.8;
+
+  width: 55%;
+
+  margin: auto;
+  margin-top: 70px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+form > input {
+  height: 40px;
+  margin-right: 20px;
+  width: 300px;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+form > input[type="submit"] {
+  color: white;
+  background-color: rgb(42, 109, 255);
+  height: 40px;
+  padding: 5px;
+  border: 0px;
+  width: 100px;
+  border-radius: 0px;
+}
+form > input[type="submit"]:hover{
+  background-color: blue;
+}
+#input_2 {
+  width: 125px;
+}
+form {
+  padding: 20px;
+}
+#flex {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#flex > p {
+  font-weight: 100px;
+  margin-top: 0%;
+}
+#flex + p {
+  font-weight: 100px;
+  margin-left: 20px;
+  margin-top: 0px;
+}
+/* #subBox{
+    border:1px solid red;
+    
+} */
+#sel{
+  border:0px;
+  color:blue;
+  font-size: 15px;
+  text-decoration: underline;
+}
+#radii>p{
+  color:blue;
+  margin-top:0px;
+  font-size: 15px;
+  padding:3px 0 0 7px;
+  
+  
+  
+
+}
+#radii{
+  border:1px solid blue;
+  width:30px;
+  height:25px;
+  border-radius:45%;
+  margin-bottom:0px;
+
+}
+#common{
+  margin:auto;
+  text-align: center;
+}
+#select{
+width:700px;
+height:100px;
+}
+#meem{
+  opacity:0.3;
+}

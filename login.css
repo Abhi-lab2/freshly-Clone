@@ -1,0 +1,179 @@
+#nav{
+  display:flex;
+  justify-content: space-between;
+
+}
+#nav2{
+  width:120px;
+  height:25px;
+  margin-top: 15px;
+}
+#nav1{
+  display: flex;
+  justify-content: space-between;
+  width:28%;
+
+}
+#nav3{
+  display: flex;
+  justify-content: space-between;
+  width:25%;
+
+}
+button{
+  color:white;
+  background-color: blue;
+  font-weight: bold;
+  height:40px;
+  margin-top: 5px;
+  width:90px;
+}
+p{
+  font-size: 15px;
+  font-family: Favoritfreshly, sans-serif;
+  
+  
+}
+p:hover{
+  text-decoration: underline;
+  color: blue;
+}
+
+
+#container{
+    width:100%;
+    /* border:1px solid red; */
+    
+   background-color: rgba(245, 222, 179, 0.13);
+
+}
+#LoginBox{
+    text-align: center;
+    width:70%;
+    margin: auto;
+    
+
+
+    
+    /* border:1px solid red; */
+}
+#detailBox{
+    margin:auto;
+    /* border:1px solid green; */
+    width:50%;
+    text-align: center;
+}
+h4{
+    /* border:1px solid teal; */
+    width:450px;
+    margin:auto;
+    text-align: left;
+    /* margin:20px 0 20px  0 */
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-family: Favoritfreshly, sans-serif;
+}
+form>input{
+    width:450px;
+    text-align: left;
+    height: 34px;
+    
+
+}
+form>input:hover{
+    border:2px double blue;
+}
+form>input[type="submit"]{
+    background-color: rgb(42,109,255);
+    text-align: center;
+    height: 40px;
+    margin-top: 10px;
+    color:white;
+    width: 460px;
+    border:0px;
+
+}
+#box_3{
+    display:flex;
+    width:70%;
+    margin: auto;
+    margin-top: 15px;
+}
+.flex_1{
+    width:35%;
+    /* border:1px solid black */
+    
+
+}
+.flex_2{
+    width:65%;
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
+.flex_2>p{
+    margin-top: 0px;
+    color:black;
+    text-decoration: none;
+}
+.flex_1>a{
+    text-align: left;
+    color:rgba(0, 0, 255);
+    
+  
+}
+h1{
+  font-family: Favoritfreshly, sans-serif;
+  font-size: 45px;
+}
+a:hover{
+  color: rgb(0, 0, 255);
+  
+}
+#sc1{
+  width:120px;
+  height:35px;
+}
+#container2{
+  display: flex;
+  justify-content: space-around;
+  width:80%;
+  margin:auto;
+
+}
+#fr{
+  font-size: 12px;
+}
+
+
+a{
+  display: block;
+}
+.imge{
+  display: block;
+  margin-bottom: 10px;
+}
+#sc3 > a{
+  font-size: 15px;
+  color: blue;
+  margin-bottom:10px;
+  font-family:Favoritfreshly,sans-serif
+
+}
+#sc2 > a{
+  font-size:15px;
+  color:blue;
+  margin-bottom:10px;
+  font-family: Favoritfreshly,sans-serif;
+}
+h3{
+  font-family:Favoritfreshly,sans-serif;
+}
+.flex_2>a{
+  color:rgba(0, 0, 255, 0.699);
+}
+.flex_2>a:hover{
+  color: rgb(0, 0, 255);
+  
+}
