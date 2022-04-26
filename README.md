@@ -12,7 +12,6 @@ _Freshly is a New York-based prepared meal delivery company that delivers throug
   - 
 - #### CSS frameworks
   - `BootStrap`
-  - 
 ---
 
 ### Netlify Link
