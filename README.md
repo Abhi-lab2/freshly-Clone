@@ -18,7 +18,7 @@ _Freshly is a New York-based prepared meal delivery company that delivers throug
 ### _Following are the Screenshots for the reference_
 
 - **Landing Page**
-  ![Landing Page](https://cdn-images-1.medium.com/max/800/1*-F4k1jErUi7105-_VQbJZA.png)
+  ![Landing Page](https://miro.medium.com/max/1400/1*0Lcv11tbb2ErXD-uAfK66Q.png)
 
 - **SignUp Page**
   ![Landing Page](https://miro.medium.com/max/1400/1*EIusz0dMrY2fEklvG57eNw.png)
