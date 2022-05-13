@@ -33,6 +33,7 @@ _Freshly is a New York-based prepared meal delivery company that delivers throug
 ### About Project
 
 > We did this project within 4 days in our unit-4 construct week. We worked on backend parts with includes various types of libraries into it and we have also added database for our project so user and course details will be saved and can be used accordingly.
+> Dynamic cart page built using local storage effectively. 
 
 
 ### Netlify Link
